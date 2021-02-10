@@ -4,7 +4,7 @@ How to start
 
 1. Clone project
 2. run command in terminal  
-"npm install cypress"
+"npm install"
 
 3. To start cypress app run command in terminal  
 ".\node_modules\.bin\cypress open"
