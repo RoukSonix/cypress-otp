@@ -7,8 +7,8 @@
     "cypress-otp": "^1.0.3"
   },
   "scripts": {
-    "install": "npm install cypress",
-    "test": ".\\node_modules\\.bin\\cypress open\n"
+    "install": "npm install",
+    "run cypress app": ".\\node_modules\\.bin\\cypress open\n"
   },
   "repository": {
     "type": "git",
