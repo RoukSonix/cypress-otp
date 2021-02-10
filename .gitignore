@@ -1,0 +1,19 @@
+# Logs
+/logs
+*.log
+npm-debug.log*
+
+# Idea
+.idea/*
+
+# Dependency directories
+/node_modules
+
+# IDE - VSCode
+.vscode/*
+
+# macOS
+.DS_Store
+
+# dotenv environment variables file
+.env
