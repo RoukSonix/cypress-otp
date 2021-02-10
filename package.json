@@ -3,20 +3,17 @@
   "version": "1.0.0",
   "description": "login-test",
   "dependencies": {
-    "cypress": "^6.4.0"
+    "cypress": "^6.4.0",
+    "cypress-otp": "^1.0.3"
   },
   "scripts": {
     "install": "npm install cypress",
-    "test": "run-test"
+    "test": ".\\node_modules\\.bin\\cypress open\n"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RoukSonix/cypress-otp-netivei.git"
   },
   "author": "a.lazarev@creatio.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RoukSonix/cypress-otp-netivei/issues"
-  },
-  "homepage": "https://github.com/RoukSonix/cypress-otp-netivei#readme"
+  "license": "MIT"
 }
