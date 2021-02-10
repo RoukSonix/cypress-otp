@@ -7,9 +7,11 @@ describe('Login page', () => {
 		cy.get('[id="passwordEdit-el"]')
 			.type('Supervisor')
 			.should('have.value', 'Supervisor')
+
 		cy.task("generateOTP", "7WU5IRXQ2EPJAFNMY7XTSGKBNIQEEJ4D").then(token => {
 			cy.get('[id="totpCodeEdit-el"]').type(token);
 		});
+
 		cy.get('[data-item-marker="btnLogin"]').click()
 		cy.url().should('include', '/Nui/ViewModule.aspx')
 	})
