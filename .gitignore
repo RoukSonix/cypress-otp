@@ -17,3 +17,7 @@ npm-debug.log*
 
 # dotenv environment variables file
 .env
+
+# cypress utils
+/cypress/screenshots
+/cypress/videos
