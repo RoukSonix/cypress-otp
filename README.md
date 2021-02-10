@@ -1,4 +1,4 @@
-# cypress-otp-netivei
+# cypress-otp
 
 How to start
 

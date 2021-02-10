@@ -1,5 +1,5 @@
 {
-  "name": "cypress-otp-netivei",
+  "name": "cypress-otp",
   "version": "1.0.0",
   "description": "login-test",
   "dependencies": {
