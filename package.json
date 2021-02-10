@@ -8,7 +8,8 @@
   },
   "scripts": {
     "install": "npm install",
-    "run cypress app": ".\\node_modules\\.bin\\cypress open\n"
+    "run cypress app": ".\\node_modules\\.bin\\cypress open\n",
+    "run test": ".\\node_modules\\.bin\\cypress run\n"
   },
   "repository": {
     "type": "git",
