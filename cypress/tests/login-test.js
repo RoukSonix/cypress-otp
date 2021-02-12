@@ -8,13 +8,13 @@ describe('Login page', () => {
 
 	it('Login action using otp', () => {
 		cy.visit('/') // Переход на страницу логина приложения
-		cy.get('[id="loginEdit-el"]').type(config.UserName) // Ввод логина пользователя
-		cy.get('[id="passwordEdit-el"]').type(config.UserPassword) // Ввод пароля пользователя
+		cy.get(loginPage.loginField).type(config.UserName) // Ввод логина пользователя
+		cy.get(loginPage.passwordField).type(config.UserPassword) // Ввод пароля пользователя
 		loginPage.generateOtpPassword() // Генерируем OTP код авторизации
 		cy.task('generateOTP').then(token => {
-			cy.get('[id="totpCodeEdit-el"]').type(token);
+			cy.get(loginPage.otpField).type(token);
 		}) // Ввод OTP токена авторизации
-		cy.get('[data-item-marker="btnLogin"]').click() // Нажимаем кнопку логина
-		cy.url().should('include', '/Nui/ViewModule.aspx') // Проверяем что мы вошли в приложение
+		cy.get(loginPage.loginButton).click() // Нажимаем кнопку логина
+		loginPage.pageLoaded() // Проверяем что мы вошли в приложение
 	})
 })
