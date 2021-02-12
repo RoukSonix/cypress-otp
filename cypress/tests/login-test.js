@@ -1,3 +1,5 @@
+
+
 describe('Login page', () => {
 	it('Login action using otp', () => {
 		cy.visit('http://int-web/TOTP_T_RC')
