@@ -3,5 +3,6 @@
   "viewportHeight": 768,
   "baseUrl": "http://int-web/TOTP_T_RC",
   "integrationFolder": "cypress/tests",
+  "defaultCommandTimeout": 20000,
   "projectId": "ddfdjq"
 }
