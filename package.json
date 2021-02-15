@@ -1,19 +1,18 @@
 {
   "name": "cypress-otp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "login-test",
   "dependencies": {
     "cypress": "^6.4.0",
     "cypress-otp": "^1.0.3"
   },
   "scripts": {
-    "install": "npm install",
     "run cypress app": ".\\node_modules\\.bin\\cypress open\n",
     "run test": ".\\node_modules\\.bin\\cypress run\n"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoukSonix/cypress-otp-netivei.git"
+    "url": "git+https://github.com/RoukSonix/cypress-otp.git"
   },
   "author": "a.lazarev@creatio.com",
   "license": "ISC"
