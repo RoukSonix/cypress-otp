@@ -5,7 +5,7 @@ export class LoginPage {
 	/*
 	Генерация токена авторизации 2FA Google аутентификатора
 	 */
-	generateOtpPassword = function generateOtpPassword () {
+	generateOtpPassword = function () {
 		cy.task("generateOTP", config.OTPToken)
 	};
 
